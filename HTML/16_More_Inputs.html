@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>More Inputs</title>
 </head>
+
 <body>
     <h2>More Inputs</h2>
     <form action="/something">
@@ -14,16 +16,23 @@
             <label for="taco">Taco</label>
             <input type="radio" name="order" id="taco" value="taco">
         </p>
-        <label for="drink">Select your drink</label>
-        <select name="drink" id="drink">
-            <option value="coke">coke</option>
-            <option value="pepsi">pepsi</option>
-        </select>
         <p>
-        <input type="checkbox" name="agree" id="agree" checked>
-        <label for="agree">I agree to everything</label>
+            <label for="cheese">Cheese amount:</label>
+            <input type="range" id="cheese" name="cheese_amt" min="1" max="10">
+        </p>
+        <p>
+            <label for="drink">Select your drink</label>
+            <select name="drink" id="drink">
+                <option value="coke">coke</option>
+                <option value="pepsi">pepsi</option>
+            </select>
+        </p>
+        <p>
+            <input type="checkbox" name="agree" id="agree" checked>
+            <label for="agree">I agree to everything</label>
         </p>
         <button>submit</button>
     </form>
 </body>
+
 </html>
