@@ -2,17 +2,21 @@ h2 {
     color: rgb(0, 51, 51);
     background-color: gray;
 }
+
 button {
     color: rgb(173, 197, 221);
     background-color: rgb(29, 29, 29);
 }
+
 p {
     color: olive;
     background: plum;
 }
-span{
+
+span {
     background-color: blue;
 }
+
 div {
     background-color: pink;
 }
