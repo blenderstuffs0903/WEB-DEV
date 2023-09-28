@@ -67,3 +67,14 @@ a[href*="google"] {
 .post:nth-of-type(2n) {
     background-color: #dfe8dc;
 }
+/* Pseudo Elements */
+h2::first-letter {
+    font-size: 50px;
+}
+p::first-line {
+    color: purple;
+}
+p::selection {
+    background-color: #fcbf49;
+    color: white;
+}
